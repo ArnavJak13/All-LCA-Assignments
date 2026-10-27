@@ -12,3 +12,13 @@ s2 = "Hello_123"  # Contains Underscore
 
 print (check_string(s1))
 print(check_string(s2))
+
+def check_string(s):
+    return s.isalnum()
+
+# Exaple Usage
+s1 = "Hello 123"
+s2 = "Hello 123!"
+
+print (check_string(s1))
+print(check_string(s2))
